@@ -6,9 +6,6 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-    public Button botaoIncrementa;
-    public TextView displayValor;
-    public int acumulador;
 
 
 
@@ -19,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-}
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
