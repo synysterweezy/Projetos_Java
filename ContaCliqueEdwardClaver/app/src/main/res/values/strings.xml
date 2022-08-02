@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ContaCliqueEdwardClaver</string>
+    <string name="incrementa">Incrementa</string>
+    <string name="contador">Contador</string>
+    <string name="click_clack">Click Clack</string>
+    <string name="minha_conta">Minha Conta</string>
+    <string name="valor_acumulado">Valor Acumulado</string>
+</resources>
