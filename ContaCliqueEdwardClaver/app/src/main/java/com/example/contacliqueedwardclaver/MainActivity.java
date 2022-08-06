@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         this.setBotaoIncrementa(findViewById(R.id.botaoIncrementa));
         this.setDisplayValor(findViewById(R.id.displayValorAcumulado));
         this.setAcumulador(10000);
+        this.getDisplayValor().setText(Integer.toString(this.getAcumulador()));
         int cont = 0;
     }
 }
