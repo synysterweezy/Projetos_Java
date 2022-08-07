@@ -42,6 +42,7 @@ import android.widget.EditText;
      @Override
     protected void onCreate(Bundle savedInstanceState) {
          super.onCreate(savedInstanceState);
+         setContentView(R.layout.activity_main);
          this.setBotaoEntrar(findViewById(R.id.botaoEntrar));
          this.setCaixaNome(findViewById(R.id.caixaNome));
          setContentView(R.layout.activity_main);
