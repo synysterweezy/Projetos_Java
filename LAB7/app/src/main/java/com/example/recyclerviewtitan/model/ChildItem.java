@@ -14,7 +14,8 @@ public class ChildItem {
     }
 
     public ChildItem(String childItemTitle, int ChildItemRate){
-        this.ChildItemTitle = childItemTitle;
+        setChildItemTitle(childItemTitle);
+        this.setChildItemRate(ChildItemRate);
     }
     public String getChildItemTitle(){
         return ChildItemTitle;
