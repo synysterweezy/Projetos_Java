@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TitanSensorLocal</string>
+    <string name="turn_on">Turn On</string>
+    <string name="turn_off">Turn Off</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="longitude">Longitude:</string>
+    <string name="longitude_will_be_here" />
+    <string name="latitude">Latitude:</string>
+    <string name="latitude_will_be_here" />
+    <string name="turn_on_off_camera_led_flashlight_android">Turn On/Off Camera LED/ Flashlight Android</string>
+</resources>

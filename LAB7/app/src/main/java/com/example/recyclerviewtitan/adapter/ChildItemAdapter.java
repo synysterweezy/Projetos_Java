@@ -31,7 +31,7 @@ public class ChildItemAdapter extends RecyclerView.Adapter<ChildItemAdapter.Chil
     public void onBindViewHolder( @NonNull ChildViewHolder childViewHolder, int position) {
         ChildItem childItem = ChildItemList.get(position);
         childViewHolder.ChildItemTitle.setText(childItem.getChildItemTitle());
-        childViewHolder.ChildItemRate.setText("Popularidade:"+String.valueOf(childItem.getChildItemRate()));
+        childViewHolder.ChildItemRate.setText(("Popularidade: "+ String.valueOf(childItem.getChildItemRate())));
     }
 
     @Override
